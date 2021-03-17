@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/x86'
+ninja: no work to do.

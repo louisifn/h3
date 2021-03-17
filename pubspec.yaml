@@ -22,4 +22,9 @@ dev_dependencies:
 
 flutter:
   plugin:
-    androidPackage: com.leavetrail.h3
+    platforms:
+      android:
+        package: com.example.h3
+        pluginClass: H3Plugin
+      ios:
+        pluginClass: H3Plugin

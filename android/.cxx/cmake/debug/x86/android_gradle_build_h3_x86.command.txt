@@ -1,0 +1,7 @@
+Executable : /usr/local/bin/ninja
+arguments : 
+-C
+/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/x86
+h3
+jvmArgs : 
+

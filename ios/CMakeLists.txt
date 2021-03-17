@@ -30,6 +30,7 @@ set(LIB_SOURCE_FILES
         h3/src/h3lib/include/constants.h
         h3/src/h3lib/include/coordijk.h
         h3/src/h3lib/include/algos.h
+        h3/src/h3lib/lib/vertex.c
         h3/src/h3lib/lib/algos.c
         h3/src/h3lib/lib/coordijk.c
         h3/src/h3lib/lib/bbox.c

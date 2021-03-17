@@ -1,0 +1,204 @@
+{
+  "stringTable": {
+    "0": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dh3_EXPORTS -I/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include -I. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -std=gnu++17",
+    "2": "--target=i686-none-linux-android16 --gcc-toolchain=/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dh3_EXPORTS -I/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include -I. -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/h3api.h.in",
+    "/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/build/cmake/platforms.cmake",
+    "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/CMakeLists.txt",
+    "/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/usr/local/bin/ninja -C \"/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/x86\" clean"
+  ],
+  "buildTargetsCommand": "/usr/local/bin/ninja -C \"/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "h3-Debug-x86": {
+      "buildCommand": "/usr/local/bin/ninja -C \"/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/x86\" h3",
+      "buildType": "debug",
+      "toolchain": "3176885280",
+      "abi": "x86",
+      "artifactName": "h3",
+      "files": [
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/vertex.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/algos.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/coordijk.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/bbox.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/polygon.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/h3Index.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/vec2d.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/vec3d.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/localij.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/geoCoord.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/h3UniEdge.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/faceijk.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/baseCells.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/dart_shim.cc",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/dart_shim.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/bbox.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/polygon.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/polygonAlgos.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/h3Index.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/h3UniEdge.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/geoCoord.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/vec2d.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/vec3d.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/linkedGeo.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/localij.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/baseCells.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/faceijk.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/vertexGraph.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/mathExtensions.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/constants.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/coordijk.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/algos.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/h3/src/h3lib/include/h3api.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/louisnewman/SocialGuidebookFix/build/h3/intermediates/cmake/debug/obj/x86/libh3.so"
+    }
+  },
+  "toolchains": {
+    "3176885280": {
+      "cCompilerExecutable": "/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+      "cppCompilerExecutable": "/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cc"
+  ]
+}

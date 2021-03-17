@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include/h3api.h.in",
+    "/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/build/cmake/platforms.cmake",
+    "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/CMakeLists.txt",
+    "/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "/usr/local/bin/ninja -C \"/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/x86_64\" clean"
+  ],
+  "buildTargetsCommand": "/usr/local/bin/ninja -C \"/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "h3-Debug-x86_64": {
+      "artifactName": "h3",
+      "buildCommand": "/usr/local/bin/ninja -C \"/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/x86_64\" h3",
+      "abi": "x86_64",
+      "output": "/Users/louisnewman/SocialGuidebookFix/build/h3/intermediates/cmake/debug/obj/x86_64/libh3.so"
+    }
+  }
+}

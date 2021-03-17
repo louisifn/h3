@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/Users/louisnewman/SocialGuidebookFix/android",
+      "sdkFolder": "/Users/louisnewman/Library/Android/sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/Users/louisnewman/SocialGuidebookFix/build/h3/intermediates",
+      "gradleModulePathName": ":h3",
+      "moduleRootFolder": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android",
+      "makeFile": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/Users/louisnewman/SocialGuidebookFix/android/.cxx",
+      "cxxFolder": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx",
+      "ndkFolder": "/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061",
+      "ndkVersion": "22.0.7026061",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "debug",
+    "soFolder": "/Users/louisnewman/SocialGuidebookFix/build/h3/intermediates/cmake/debug/lib",
+    "objFolder": "/Users/louisnewman/SocialGuidebookFix/build/h3/intermediates/cmake/debug/obj",
+    "jsonFolder": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/arm64-v8a",
+  "jsonFile": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cxx/debug/arm64-v8a",
+  "objFolder": "/Users/louisnewman/SocialGuidebookFix/build/h3/intermediates/cmake/debug/obj/arm64-v8a",
+  "buildCommandFile": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/arm64-v8a/build_command.txt",
+  "buildOutputFile": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/arm64-v8a/build_output.txt",
+  "modelOutputFile": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/arm64-v8a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cxx/debug/arm64-v8a/CMakeLists.txt",
+    "toolchainWrapperFile": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cxx/debug/arm64-v8a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cxx/debug/arm64-v8a/build_generation_state.json",
+    "cacheKeyFile": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cxx/debug/arm64-v8a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cxx/debug/arm64-v8a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cxx/debug/arm64-v8a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cxx/debug/arm64-v8a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/arm64-v8a/json_generation_record.json",
+  "compileCommandsJsonFile": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/arm64-v8a/compile_commands.json"
+}

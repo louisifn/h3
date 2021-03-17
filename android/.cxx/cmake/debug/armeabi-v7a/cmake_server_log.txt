@@ -1,0 +1,297 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":2}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 2
+  },
+  "sourceDirectory": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios",
+  "buildDirectory": "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/armeabi-v7a",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DANDROID_ABI\u003darmeabi-v7a",
+    "-DANDROID_PLATFORM\u003dandroid-16",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/louisnewman/SocialGuidebookFix/build/h3/intermediates/cmake/debug/obj/armeabi-v7a",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DANDROID_NDK\u003d/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061",
+    "-DCMAKE_CXX_FLAGS\u003d",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a",
+    "-DCMAKE_SYSTEM_VERSION\u003d16",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_ANDROID_NDK\u003d/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake",
+    "-G Ninja",
+    "-DCMAKE_MAKE_PROGRAM\u003d/usr/local/bin/ninja"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"The C compiler identification is Clang 11.0.5","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: The C compiler identification is Clang 11.0.5
+CMAKE SERVER: The C compiler identification is Clang 11.0.5
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"The CXX compiler identification is Clang 11.0.5","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: The CXX compiler identification is Clang 11.0.5
+CMAKE SERVER: The CXX compiler identification is Clang 11.0.5
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: Detecting C compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":33,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: Detecting C compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working C compiler: /Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang - skipped","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working C compiler: /Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang - skipped
+CMAKE SERVER: Check for working C compiler: /Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang - skipped
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: Detecting C compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting C compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: Detecting C compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: Detecting CXX compiler ABI info
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":65,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compiler ABI info - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: Detecting CXX compiler ABI info - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Check for working CXX compiler: /Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ - skipped","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Check for working CXX compiler: /Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ - skipped
+CMAKE SERVER: Check for working CXX compiler: /Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ - skipped
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: Detecting CXX compile features
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Detecting CXX compile features - done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: Detecting CXX compile features - done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Deprecation Warning:\n  The 'cmake-server(7)' is deprecated.  Please port clients to use the\n  'cmake-file-api(7)' instead.\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Deprecation Warning:
+  The 'cmake-server(7)' is deprecated.  Please port clients to use the
+  'cmake-file-api(7)' instead.
+
+
+CMAKE SERVER: CMake Deprecation Warning:
+  The 'cmake-server(7)' is deprecated.  Please port clients to use the
+  'cmake-file-api(7)' instead.
+
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":100,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeDetermineSystem.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Android-Determine.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeSystem.cmake.in","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Android-Initialize.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeDetermineCCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeDetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Android-Determine-C.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Android/Determine-Compiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeDetermineCompilerId.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCompilerIdDetection.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeFindBinUtils.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCCompiler.cmake.in","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeDetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Android-Determine-CXX.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Android/Determine-Compiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeDetermineCompilerId.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCompilerIdDetection.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeFindBinUtils.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCXXCompiler.cmake.in","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeSystemSpecificInformation.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeGenericSystem.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeInitializeConfigs.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Android.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Linux.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/UnixPaths.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCInformation.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeLanguageInformation.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Clang-C.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Clang.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/GNU.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Android-Clang-C.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Android-Clang.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCommonLanguageInclude.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeTestCCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeTestCompilerCommon.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeDetermineCompilerABI.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeTestCompilerCommon.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCCompilerABI.c","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Internal/FeatureTesting.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCCompiler.cmake.in","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCXXInformation.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeLanguageInformation.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Clang-CXX.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Clang.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Android-Clang-CXX.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Android-Clang.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCommonLanguageInclude.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeTestCXXCompiler.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeTestCompilerCommon.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeDetermineCompilerABI.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeTestCompilerCommon.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCXXCompilerABI.cpp","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Internal/FeatureTesting.cmake","/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/CMakeCXXCompiler.cmake.in"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","../../../Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake","../../../Library/Android/sdk/ndk/22.0.7026061/build/cmake/platforms.cmake","../../../Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake","h3/src/h3lib/include/h3api.h.in"]},{"isCMake":false,"isTemporary":true,"sources":["../android/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.19.6/CMakeSystem.cmake","../android/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.19.6/CMakeCCompiler.cmake","../android/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.19.6/CMakeCXXCompiler.cmake","../android/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.19.6/CMakeCCompiler.cmake","../android/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.19.6/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"/usr/local/Cellar/cmake/3.19.6/share/cmake","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"/Users/louisnewman/SocialGuidebookFix/h3plugin/ios","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/armeabi-v7a","hasInstallRule":false,"minimumCMakeVersion":"3.6.0","name":"h3","sourceDirectory":"/Users/louisnewman/SocialGuidebookFix/h3plugin/ios","targets":[{"artifacts":["/Users/louisnewman/SocialGuidebookFix/build/h3/intermediates/cmake/debug/obj/armeabi-v7a/libh3.so"],"buildDirectory":"/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/armeabi-v7a","fileGroups":[{"defines":["h3_EXPORTS"],"includePath":[{"path":"/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include"},{"path":"/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/armeabi-v7a"}],"isGenerated":false,"language":"C","sources":["h3/src/h3lib/lib/vertex.c","h3/src/h3lib/lib/algos.c","h3/src/h3lib/lib/coordijk.c","h3/src/h3lib/lib/bbox.c","h3/src/h3lib/lib/polygon.c","h3/src/h3lib/lib/h3Index.c","h3/src/h3lib/lib/vec2d.c","h3/src/h3lib/lib/vec3d.c","h3/src/h3lib/lib/linkedGeo.c","h3/src/h3lib/lib/localij.c","h3/src/h3lib/lib/geoCoord.c","h3/src/h3lib/lib/h3UniEdge.c","h3/src/h3lib/lib/mathExtensions.c","h3/src/h3lib/lib/vertexGraph.c","h3/src/h3lib/lib/faceijk.c","h3/src/h3lib/lib/baseCells.c"]},{"defines":["h3_EXPORTS"],"includePath":[{"path":"/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/include"},{"path":"/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/armeabi-v7a"}],"isGenerated":false,"language":"CXX","sources":["dart_shim.cc"]},{"isGenerated":false,"sources":["dart_shim.h","h3/src/h3lib/include/bbox.h","h3/src/h3lib/include/polygon.h","h3/src/h3lib/include/polygonAlgos.h","h3/src/h3lib/include/h3Index.h","h3/src/h3lib/include/h3UniEdge.h","h3/src/h3lib/include/geoCoord.h","h3/src/h3lib/include/vec2d.h","h3/src/h3lib/include/vec3d.h","h3/src/h3lib/include/linkedGeo.h","h3/src/h3lib/include/localij.h","h3/src/h3lib/include/baseCells.h","h3/src/h3lib/include/faceijk.h","h3/src/h3lib/include/vertexGraph.h","h3/src/h3lib/include/mathExtensions.h","h3/src/h3lib/include/constants.h","h3/src/h3lib/include/coordijk.h","h3/src/h3lib/include/algos.h","../android/.cxx/cmake/debug/h3/src/h3lib/include/h3api.h"]}],"fullName":"libh3.so","isGeneratorProvided":false,"linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-latomic -lm","linkerLanguage":"CXX","name":"h3","sourceDirectory":"/Users/louisnewman/SocialGuidebookFix/h3plugin/ios","sysroot":"/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/toolchains/llvm/prebuilt/darwin-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

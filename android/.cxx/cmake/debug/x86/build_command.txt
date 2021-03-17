@@ -1,0 +1,20 @@
+Executable : /usr/local/bin/cmake
+arguments : 
+-H/Users/louisnewman/SocialGuidebookFix/h3plugin/ios
+-B/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/louisnewman/SocialGuidebookFix/build/h3/intermediates/cmake/debug/obj/x86
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061
+-DCMAKE_CXX_FLAGS=
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_ANDROID_ARCH_ABI=x86
+-DCMAKE_SYSTEM_VERSION=16
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_ANDROID_NDK=/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061
+-DCMAKE_TOOLCHAIN_FILE=/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake
+-G Ninja
+-DCMAKE_MAKE_PROGRAM=/usr/local/bin/ninja
+jvmArgs : 
+

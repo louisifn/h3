@@ -1,18 +1,14 @@
-// File created by
-// Lung Razvan <long1eu>
-// on 26/08/2019
 
 import 'dart:convert';
 import 'dart:ffi';
 
-import 'package:h3/main.dart';
+import 'package:h3/h3.dart';
+import 'package:h3/types.dart';
 import 'package:test/test.dart';
 
 const double precisionErrorTolerance = 1e-10;
 
 void main() {
-  setUpAll(
-      () => initializeH3((_) => DynamicLibrary.open('ios/build/libh3.so')));
 
   test('geoToH3', () {
     expect(geoToH3(GeoCoord.degrees(lat: 79.2423985098, lon: 38.0234070080), 0),

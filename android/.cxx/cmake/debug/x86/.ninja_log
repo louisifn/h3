@@ -1,0 +1,19 @@
+# ninja log v5
+4	52	1615296114904551306	CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.o	3ba363c511f56a3c
+2	58	1615296114910493612	CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.o	6ed970441e5108c7
+2	65	1615296114917024831	CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.o	eae401f9aa777b77
+1	73	1615296114924484863	CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.o	78ec67ce766f8090
+1	74	1615296114926783853	CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.o	8c7fdb9e82e2294a
+4	74	1615296114926376511	CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.o	ef16750f12cb566f
+1	81	1615296114933306282	CMakeFiles/h3.dir/h3/src/h3lib/lib/vertex.c.o	8bfe12eed32f0bd9
+3	82	1615296114933885865	CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.o	7435838ef65b1e7b
+4	87	1615296114939208555	CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.o	648b08b0defab7b0
+1	92	1615296114945506831	CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.o	fb76e6eb24c610f5
+2	94	1615296114947131376	CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.o	dee815669fc71f0f
+3	96	1615296114949160293	CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.o	60e97471da3c1382
+4	96	1615296114948576062	CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.o	ebaeef9876948615
+3	98	1615296114951520198	CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.o	4083218dac49838a
+1	113	1615296114967034153	CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.o	3eac83a5bb03aeff
+2	125	1615296114979172773	CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.o	4feddf51c5d35b85
+0	508	1615296115359799693	CMakeFiles/h3.dir/dart_shim.cc.o	6bef6b0992773f0f
+508	555	1615296115400053365	/Users/louisnewman/SocialGuidebookFix/build/h3/intermediates/cmake/debug/obj/x86/libh3.so	2c16dadbad78e482
