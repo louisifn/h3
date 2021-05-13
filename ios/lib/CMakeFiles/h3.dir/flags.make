@@ -5,13 +5,13 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 C_DEFINES = -Dh3_EXPORTS
 
-C_INCLUDES = -I/Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/include -I/Users/louisnewman/h3pluginHelp/ios/lib
+C_INCLUDES = -I"/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/include" -I"/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib"
 
-C_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fPIC
+C_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC
 
 CXX_DEFINES = -Dh3_EXPORTS
 
-CXX_INCLUDES = -I/Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/include -I/Users/louisnewman/h3pluginHelp/ios/lib
+CXX_INCLUDES = -I"/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/include" -I"/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib"
 
-CXX_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -fPIC -std=gnu++17
+CXX_FLAGS =  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk -fPIC -std=gnu++17
 

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/louisnewman/SocialGuidebookFix copy/h3plugin/android/src/main/dart_shim.cc
+dart_shim.h
+/Users/louisnewman/SocialGuidebookFix copy/h3plugin/android/src/main/dart_shim.h
+
+/Users/louisnewman/SocialGuidebookFix copy/h3plugin/android/src/main/dart_shim.h
+iostream
+-
+memory
+-
+h3/src/h3lib/include/h3api.h
+/Users/louisnewman/SocialGuidebookFix copy/h3plugin/android/src/main/h3/src/h3lib/include/h3api.h
+
+/Users/louisnewman/SocialGuidebookFix copy/h3plugin/android/src/main/h3/src/h3lib/include/h3api.h
+stdint.h
+-
+stdlib.h
+-
+

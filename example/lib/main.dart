@@ -3,8 +3,7 @@ import 'dart:ffi';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:h3/h3.dart';
-import 'package:h3/types.dart';
+import 'package:h3/h3_ffi.dart';
 
 
 

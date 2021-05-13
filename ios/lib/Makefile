@@ -67,10 +67,10 @@ RM = /usr/local/Cellar/cmake/3.19.6/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/louisnewman/h3pluginHelp/ios
+CMAKE_SOURCE_DIR = "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/louisnewman/h3pluginHelp/ios/lib
+CMAKE_BINARY_DIR = "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/louisnewman/h3pluginHelp/ios/lib/CMakeFiles /Users/louisnewman/h3pluginHelp/ios/lib//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/louisnewman/h3pluginHelp/ios/lib/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

@@ -13,6 +13,18 @@
   },
   {
     "level": "INFO",
+    "message": "- a dependent build file changed"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/include/h3api.h.in"
+  },
+  {
+    "level": "INFO",
+    "message": "  - /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/CMakeLists.txt"
+  },
+  {
+    "level": "INFO",
     "message": "removing stale contents from \u0027/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/x86_64\u0027"
   },
   {

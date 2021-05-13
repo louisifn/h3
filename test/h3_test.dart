@@ -1,14 +1,20 @@
+// File created by
+// Lung Razvan <long1eu>
+// on 26/08/2019
 
 import 'dart:convert';
 import 'dart:ffi';
 
-import 'package:h3/h3.dart';
-import 'package:h3/types.dart';
+import 'package:h3/h3_ffi.dart';
 import 'package:test/test.dart';
 
 const double precisionErrorTolerance = 1e-10;
 
 void main() {
+  setUpAll(
+      () => initializeH3((_) => DynamicLibrary.open('../android/src/libh3.so')));
+  // setUpAll(
+  //     () => initializeH3((_) => DynamicLibrary.open('../ios/lib/libh3.so')));
 
   test('geoToH3', () {
     expect(geoToH3(GeoCoord.degrees(lat: 79.2423985098, lon: 38.0234070080), 0),
@@ -19,6 +25,10 @@ void main() {
     expect(
         geoToH3(GeoCoord.degrees(lat: 74.9284343892, lon: 145.3562419228), 0),
         0x8005fffffffffff);
+    expect(geoToH3(GeoCoord.degrees(lat: 40.689167, lon: -74.044444), 10),
+        0x8a2a1072b59ffff);
+    print(geoToH3(GeoCoord.degrees(lat: 40.689167, lon: -74.044444), 10)
+        .toRadixString(16));
   });
 
   test('h3ToGeo', () {
@@ -299,10 +309,10 @@ void main() {
       ],
     ];
 
-    expect(maxPolyfillSize(GeoPolygon(geofence, <List<GeoCoord>>[]), 9), 5613);
-    expect(maxPolyfillSize(GeoPolygon(geofence, holes), 9), 5613);
+    expect(maxPolyfillSize(GeoPolygon(geofence, <List<GeoCoord>>[]), 9), 3169);
+    expect(maxPolyfillSize(GeoPolygon(geofence, holes), 9), 3169);
     expect(
-        maxPolyfillSize(GeoPolygon(emptyGeofence, <List<GeoCoord>>[]), 9), 15);
+        maxPolyfillSize(GeoPolygon(emptyGeofence, <List<GeoCoord>>[]), 9), 1);
   });
 
   test('polyfill', () {

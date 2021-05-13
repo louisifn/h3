@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.14)
 project(h3)
 
 set(CMAKE_CXX_STANDARD 17)
@@ -30,7 +30,6 @@ set(LIB_SOURCE_FILES
         h3/src/h3lib/include/constants.h
         h3/src/h3lib/include/coordijk.h
         h3/src/h3lib/include/algos.h
-        h3/src/h3lib/lib/vertex.c
         h3/src/h3lib/lib/algos.c
         h3/src/h3lib/lib/coordijk.c
         h3/src/h3lib/lib/bbox.c
@@ -53,3 +52,8 @@ set(CONFIGURED_API_HEADER ../h3/src/h3lib/include/h3api.h)
 configure_file(${UNCONFIGURED_API_HEADER} ${CONFIGURED_API_HEADER})
 
 add_library(h3 SHARED ${LIB_SOURCE_FILES} ${CONFIGURED_API_HEADER})
+if (APPLE)
+    set_property(TARGET h3 PROPERTY PREFIX "lib")
+    set_property(TARGET h3 PROPERTY OUTPUT_NAME "h3.so")
+    set_property(TARGET h3 PROPERTY SUFFIX "")
+endif()

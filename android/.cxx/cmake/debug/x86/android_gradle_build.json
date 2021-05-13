@@ -23,11 +23,6 @@
       "artifactName": "h3",
       "files": [
         {
-          "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/vertex.c",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        },
-        {
           "src": "/Users/louisnewman/SocialGuidebookFix/h3plugin/ios/h3/src/h3lib/lib/algos.c",
           "flagsOrdinal": 2,
           "workingDirectoryOrdinal": 0

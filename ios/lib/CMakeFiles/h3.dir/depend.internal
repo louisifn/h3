@@ -3,7 +3,6 @@
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.o
  ../h3/src/h3lib/include/algos.h
- ../h3/src/h3lib/include/alloc.h
  ../h3/src/h3lib/include/baseCells.h
  ../h3/src/h3lib/include/bbox.h
  ../h3/src/h3lib/include/constants.h
@@ -16,7 +15,7 @@ CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.o
  ../h3/src/h3lib/include/polygon.h
  ../h3/src/h3lib/include/vec2d.h
  ../h3/src/h3lib/include/vertexGraph.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/algos.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/algos.c
 CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.o
  ../h3/src/h3lib/include/baseCells.h
  ../h3/src/h3lib/include/constants.h
@@ -26,7 +25,7 @@ CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.o
  ../h3/src/h3lib/include/h3Index.h
  ../h3/src/h3lib/include/h3api.h
  ../h3/src/h3lib/include/vec2d.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/baseCells.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/baseCells.c
 CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.o
  ../h3/src/h3lib/include/bbox.h
  ../h3/src/h3lib/include/constants.h
@@ -36,7 +35,7 @@ CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.o
  ../h3/src/h3lib/include/h3Index.h
  ../h3/src/h3lib/include/h3api.h
  ../h3/src/h3lib/include/vec2d.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/bbox.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/bbox.c
 CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.o
  ../h3/src/h3lib/include/constants.h
  ../h3/src/h3lib/include/coordijk.h
@@ -44,7 +43,7 @@ CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.o
  ../h3/src/h3lib/include/h3api.h
  ../h3/src/h3lib/include/mathExtensions.h
  ../h3/src/h3lib/include/vec2d.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/coordijk.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/coordijk.c
 CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.o
  ../h3/src/h3lib/include/constants.h
  ../h3/src/h3lib/include/coordijk.h
@@ -54,15 +53,13 @@ CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.o
  ../h3/src/h3lib/include/h3api.h
  ../h3/src/h3lib/include/vec2d.h
  ../h3/src/h3lib/include/vec3d.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/faceijk.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/faceijk.c
 CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.o
  ../h3/src/h3lib/include/constants.h
  ../h3/src/h3lib/include/geoCoord.h
  ../h3/src/h3lib/include/h3api.h
- ../h3/src/h3lib/include/mathExtensions.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/geoCoord.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.c
 CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.o
- ../h3/src/h3lib/include/alloc.h
  ../h3/src/h3lib/include/baseCells.h
  ../h3/src/h3lib/include/constants.h
  ../h3/src/h3lib/include/coordijk.h
@@ -72,7 +69,7 @@ CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.o
  ../h3/src/h3lib/include/h3api.h
  ../h3/src/h3lib/include/mathExtensions.h
  ../h3/src/h3lib/include/vec2d.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/h3Index.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3Index.c
 CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.o
  ../h3/src/h3lib/include/algos.h
  ../h3/src/h3lib/include/bbox.h
@@ -84,11 +81,9 @@ CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.o
  ../h3/src/h3lib/include/h3api.h
  ../h3/src/h3lib/include/linkedGeo.h
  ../h3/src/h3lib/include/vec2d.h
- ../h3/src/h3lib/include/vertex.h
  ../h3/src/h3lib/include/vertexGraph.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/h3UniEdge.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3UniEdge.c
 CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.o
- ../h3/src/h3lib/include/alloc.h
  ../h3/src/h3lib/include/bbox.h
  ../h3/src/h3lib/include/constants.h
  ../h3/src/h3lib/include/geoCoord.h
@@ -96,7 +91,7 @@ CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.o
  ../h3/src/h3lib/include/linkedGeo.h
  ../h3/src/h3lib/include/polygon.h
  ../h3/src/h3lib/include/polygonAlgos.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/linkedGeo.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.c
 CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.o
  ../h3/src/h3lib/include/baseCells.h
  ../h3/src/h3lib/include/constants.h
@@ -107,10 +102,10 @@ CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.o
  ../h3/src/h3lib/include/h3api.h
  ../h3/src/h3lib/include/mathExtensions.h
  ../h3/src/h3lib/include/vec2d.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/localij.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/localij.c
 CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.o
  ../h3/src/h3lib/include/mathExtensions.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/mathExtensions.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.c
 CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.o
  ../h3/src/h3lib/include/bbox.h
  ../h3/src/h3lib/include/constants.h
@@ -119,24 +114,23 @@ CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.o
  ../h3/src/h3lib/include/linkedGeo.h
  ../h3/src/h3lib/include/polygon.h
  ../h3/src/h3lib/include/polygonAlgos.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/polygon.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/polygon.c
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.o
  ../h3/src/h3lib/include/vec2d.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/vec2d.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec2d.c
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.o
  ../h3/src/h3lib/include/constants.h
  ../h3/src/h3lib/include/geoCoord.h
  ../h3/src/h3lib/include/h3api.h
  ../h3/src/h3lib/include/vec3d.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/vec3d.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec3d.c
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.o
- ../h3/src/h3lib/include/alloc.h
  ../h3/src/h3lib/include/constants.h
  ../h3/src/h3lib/include/geoCoord.h
  ../h3/src/h3lib/include/h3api.h
  ../h3/src/h3lib/include/vertexGraph.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/lib/vertexGraph.c
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.c
 CMakeFiles/h3.dir/dart_shim.cc.o
- /Users/louisnewman/h3pluginHelp/ios/dart_shim.cc
- /Users/louisnewman/h3pluginHelp/ios/dart_shim.h
- /Users/louisnewman/h3pluginHelp/ios/h3/src/h3lib/include/h3api.h
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/dart_shim.cc
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/dart_shim.h
+ /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/include/h3api.h

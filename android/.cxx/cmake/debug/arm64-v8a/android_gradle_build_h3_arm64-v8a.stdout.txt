@@ -1,2 +1,18 @@
 ninja: Entering directory `/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/arm64-v8a'
-ninja: no work to do.
+[1/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.o
+[2/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.o
+[3/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.o
+[4/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.o
+[5/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.o
+[6/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.o
+[7/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.o
+[8/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.o
+[9/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.o
+[10/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.o
+[11/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.o
+[12/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.o
+[13/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.o
+[14/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.o
+[15/17] Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.o
+[16/17] Building CXX object CMakeFiles/h3.dir/dart_shim.cc.o
+[17/17] Linking CXX shared library /Users/louisnewman/SocialGuidebookFix/build/h3/intermediates/cmake/debug/obj/arm64-v8a/libh3.so
