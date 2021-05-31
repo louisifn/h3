@@ -15,8 +15,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.o"
   "CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.o"
   "CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.o"
-  "libh3.so"
-  "libh3.so.pdb"
+  "h3.framework/Versions/A/Headers/h3api.h"
+  "h3.framework/Versions/A/h3"
+  "h3.framework/h3"
+  "h3.framework/h3.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

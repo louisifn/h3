@@ -1,9 +1,9 @@
 #!/bin/bash
 
-cd android/src/main || exit
+cd ios || exit
 git clone https://github.com/uber/h3
 
-mkdir jniLibs || echo "Build folder exists"
-cd jniLibs
+mkdir lib || echo "Build folder exists"
+cd lib
 cmake ..
 make h3

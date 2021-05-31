@@ -5,11 +5,7 @@
   },
   {
     "level": "INFO",
-    "message": "rebuilding JSON /Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json due to:"
-  },
-  {
-    "level": "INFO",
-    "message": "- command changed from previous, will remove stale json folder"
+    "message": "rebuilding JSON /Users/louisnewman/h3plugin/android/.cxx/cmake/debug/arm64-v8a/android_gradle_build.json due to:"
   },
   {
     "level": "INFO",
@@ -17,23 +13,15 @@
   },
   {
     "level": "INFO",
-    "message": "  - /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/include/h3api.h.in"
+    "message": "  - /Users/louisnewman/h3plugin/ios/CMakeLists.txt"
   },
   {
     "level": "INFO",
-    "message": "  - /Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/CMakeLists.txt"
+    "message": "keeping json folder \u0027/Users/louisnewman/h3plugin/android/.cxx/cmake/debug/arm64-v8a\u0027 but regenerating project"
   },
   {
     "level": "INFO",
-    "message": "removing stale contents from \u0027/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/arm64-v8a\u0027"
-  },
-  {
-    "level": "INFO",
-    "message": "created folder \u0027/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/arm64-v8a\u0027"
-  },
-  {
-    "level": "INFO",
-    "message": "executing cmake Executable : /usr/local/bin/cmake\narguments : \n-H/Users/louisnewman/SocialGuidebookFix/h3plugin/ios\n-B/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/arm64-v8a\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/louisnewman/SocialGuidebookFix/build/h3/intermediates/cmake/debug/obj/arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DANDROID_NDK\u003d/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061\n-DCMAKE_CXX_FLAGS\u003d\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_ANDROID_NDK\u003d/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake\n-G Ninja\n-DCMAKE_MAKE_PROGRAM\u003d/usr/local/bin/ninja\njvmArgs : \n\n"
+    "message": "executing cmake Executable : /usr/local/bin/cmake\narguments : \n-H/Users/louisnewman/h3plugin/ios\n-B/Users/louisnewman/h3plugin/android/.cxx/cmake/debug/arm64-v8a\n-DANDROID_ABI\u003darm64-v8a\n-DANDROID_PLATFORM\u003dandroid-16\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/louisnewman/SocialGuidebookFix/build/h3/intermediates/cmake/debug/obj/arm64-v8a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-DANDROID_NDK\u003d/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061\n-DCMAKE_CXX_FLAGS\u003d\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_ANDROID_NDK\u003d/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/louisnewman/Library/Android/sdk/ndk/22.0.7026061/build/cmake/android.toolchain.cmake\n-G Ninja\n-DCMAKE_MAKE_PROGRAM\u003d/usr/local/bin/ninja\njvmArgs : \n\n"
   },
   {
     "level": "INFO",
@@ -41,11 +29,11 @@
   },
   {
     "level": "INFO",
-    "message": "write build output /Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/arm64-v8a/build_output.txt"
+    "message": "write build output /Users/louisnewman/h3plugin/android/.cxx/cmake/debug/arm64-v8a/build_output.txt"
   },
   {
     "level": "INFO",
-    "message": "write command file /Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/arm64-v8a/build_command.txt"
+    "message": "write command file /Users/louisnewman/h3plugin/android/.cxx/cmake/debug/arm64-v8a/build_command.txt"
   },
   {
     "level": "INFO",

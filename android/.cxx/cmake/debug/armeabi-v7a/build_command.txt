@@ -1,7 +1,7 @@
 Executable : /usr/local/bin/cmake
 arguments : 
--H/Users/louisnewman/SocialGuidebookFix/h3plugin/ios
--B/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/armeabi-v7a
+-H/Users/louisnewman/h3plugin/ios
+-B/Users/louisnewman/h3plugin/android/.cxx/cmake/debug/armeabi-v7a
 -DANDROID_ABI=armeabi-v7a
 -DANDROID_PLATFORM=android-16
 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/louisnewman/SocialGuidebookFix/build/h3/intermediates/cmake/debug/obj/armeabi-v7a

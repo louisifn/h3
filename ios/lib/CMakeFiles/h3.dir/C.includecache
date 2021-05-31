@@ -134,9 +134,9 @@ stdlib.h
 geoCoord.h
 ../h3/src/h3lib/include/geoCoord.h
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/algos.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/algos.c
 algos.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/algos.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/algos.h
 assert.h
 -
 float.h
@@ -150,33 +150,33 @@ stdlib.h
 string.h
 -
 baseCells.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/baseCells.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/baseCells.h
 bbox.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/bbox.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/bbox.h
 faceijk.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/faceijk.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/faceijk.h
 geoCoord.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
 h3Index.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3Index.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3Index.h
 h3api.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3api.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3api.h
 linkedGeo.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.h
 polygon.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/polygon.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/polygon.h
 vertexGraph.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.h
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/baseCells.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/baseCells.c
 baseCells.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/baseCells.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/baseCells.h
 h3Index.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3Index.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3Index.h
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/bbox.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/bbox.c
 bbox.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/bbox.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/bbox.h
 float.h
 -
 math.h
@@ -184,15 +184,15 @@ math.h
 stdbool.h
 -
 constants.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/constants.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/constants.h
 geoCoord.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
 h3Index.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3Index.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3Index.h
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/coordijk.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/coordijk.c
 coordijk.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/coordijk.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/coordijk.h
 math.h
 -
 stdio.h
@@ -202,15 +202,15 @@ stdlib.h
 string.h
 -
 constants.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/constants.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/constants.h
 geoCoord.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
 mathExtensions.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.h
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/faceijk.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/faceijk.c
 faceijk.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/faceijk.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/faceijk.h
 assert.h
 -
 math.h
@@ -222,31 +222,31 @@ stdlib.h
 string.h
 -
 constants.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/constants.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/constants.h
 coordijk.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/coordijk.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/coordijk.h
 geoCoord.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
 h3Index.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3Index.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3Index.h
 vec3d.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec3d.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vec3d.h
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/geoCoord.c
 geoCoord.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
 math.h
 -
 stdbool.h
 -
 constants.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/constants.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/constants.h
 h3api.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3api.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3api.h
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3Index.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3Index.c
 h3Index.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3Index.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3Index.h
 faceijk.h
 -
 inttypes.h
@@ -258,43 +258,43 @@ stdlib.h
 string.h
 -
 baseCells.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/baseCells.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/baseCells.h
 faceijk.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/faceijk.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/faceijk.h
 mathExtensions.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.h
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3UniEdge.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3UniEdge.c
 inttypes.h
 -
 stdbool.h
 -
 algos.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/algos.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/algos.h
 constants.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/constants.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/constants.h
 coordijk.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/coordijk.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/coordijk.h
 geoCoord.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
 h3Index.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3Index.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3Index.h
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.c
 linkedGeo.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.h
 assert.h
 -
 stdlib.h
 -
 geoCoord.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
 h3api.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3api.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3api.h
 polygonAlgos.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/polygonAlgos.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/polygonAlgos.h
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/localij.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/localij.c
 assert.h
 -
 faceijk.h
@@ -308,21 +308,21 @@ stdlib.h
 string.h
 -
 baseCells.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/baseCells.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/baseCells.h
 faceijk.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/faceijk.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/faceijk.h
 h3Index.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3Index.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3Index.h
 mathExtensions.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.h
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.c
 mathExtensions.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.h
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/polygon.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/polygon.c
 polygon.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/polygon.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/polygon.h
 float.h
 -
 math.h
@@ -330,35 +330,35 @@ math.h
 stdbool.h
 -
 bbox.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/bbox.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/bbox.h
 constants.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/constants.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/constants.h
 geoCoord.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
 h3api.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3api.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3api.h
 linkedGeo.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.h
 polygonAlgos.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/polygonAlgos.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/polygonAlgos.h
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec2d.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vec2d.c
 vec2d.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec2d.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vec2d.h
 math.h
 -
 stdio.h
 -
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec3d.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vec3d.c
 vec3d.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec3d.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vec3d.h
 math.h
 -
 
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.c
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.c
 vertexGraph.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.h
 assert.h
 -
 math.h
@@ -370,5 +370,5 @@ stdio.h
 stdlib.h
 -
 geoCoord.h
-/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
+/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/geoCoord.h
 

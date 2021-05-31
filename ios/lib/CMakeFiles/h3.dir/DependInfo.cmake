@@ -5,21 +5,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/algos.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.o"
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/baseCells.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.o"
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/bbox.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.o"
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/coordijk.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.o"
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/faceijk.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.o"
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.o"
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3Index.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.o"
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3UniEdge.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.o"
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.o"
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/localij.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.o"
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.o"
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/polygon.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.o"
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec2d.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.o"
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec3d.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.o"
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.c" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/algos.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/baseCells.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/bbox.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/coordijk.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/faceijk.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/geoCoord.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3Index.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3UniEdge.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/localij.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/polygon.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vec2d.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vec3d.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.o"
+  "/Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.c" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 
@@ -34,7 +34,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "."
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/dart_shim.cc" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/dart_shim.cc.o"
+  "/Users/louisnewman/h3plugin/ios/dart_shim.cc" "/Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/dart_shim.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -48,6 +48,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../h3/src/h3lib/include"
   "."
   )
+
+# Pairs of files generated by the same build rule.
+set(CMAKE_MULTIPLE_OUTPUT_PAIRS
+  "/Users/louisnewman/h3plugin/ios/lib/h3.framework/h3" "/Users/louisnewman/h3plugin/ios/lib/h3.framework/Versions/A/h3"
+  )
+
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES

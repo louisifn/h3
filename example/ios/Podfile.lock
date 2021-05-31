@@ -1,0 +1,21 @@
+PODS:
+  - Flutter (1.0.0)
+  - h3 (0.0.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - h3 (from `.symlinks/plugins/h3/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  h3:
+    :path: ".symlinks/plugins/h3/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  h3: f010c3df94802a8c921b0e3765ed5f378964e49a
+
+PODFILE CHECKSUM: fe0e1ee7f3d1f7d00b11b474b62dd62134535aea
+
+COCOAPODS: 1.10.1

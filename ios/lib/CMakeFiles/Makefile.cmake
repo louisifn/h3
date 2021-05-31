@@ -25,6 +25,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/Clang.cmake"
   "/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Compiler/GNU.cmake"
+  "/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/MacOSXFrameworkInfo.plist.in"
   "/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake"
   "/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake"
   "/usr/local/Cellar/cmake/3.19.6/share/cmake/Modules/Platform/Apple-Clang-C.cmake"
@@ -44,6 +45,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "../h3/src/h3lib/include/h3api.h"
+  "h3.framework/Versions/A/Resources/Info.plist"
+  "h3.framework/Versions/Current"
+  "h3.framework/h3"
+  "h3.framework/Resources"
+  "h3.framework/Headers"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

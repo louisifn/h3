@@ -1,4 +1,4 @@
-# Install script for directory: /Users/louisnewman/SocialGuidebookFix/h3plugin/ios
+# Install script for directory: /Users/louisnewman/h3plugin/ios
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/louisnewman/SocialGuidebookFix/h3plugin/android/.cxx/cmake/debug/x86_64/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/louisnewman/h3plugin/android/.cxx/cmake/debug/x86_64/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

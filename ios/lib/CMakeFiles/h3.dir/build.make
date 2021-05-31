@@ -62,10 +62,10 @@ RM = /usr/local/Cellar/cmake/3.19.6/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios"
+CMAKE_SOURCE_DIR = /Users/louisnewman/h3plugin/ios
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib"
+CMAKE_BINARY_DIR = /Users/louisnewman/h3plugin/ios/lib
 
 # Include any dependencies generated for this target.
 include CMakeFiles/h3.dir/depend.make
@@ -76,213 +76,217 @@ include CMakeFiles/h3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/h3.dir/flags.make
 
+h3.framework/Versions/A/Headers/h3api.h: ../h3/src/h3lib/include/h3api.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Copying OS X content h3.framework/Versions/A/Headers/h3api.h"
+	$(CMAKE_COMMAND) -E copy /Users/louisnewman/h3plugin/ios/h3/src/h3lib/include/h3api.h h3.framework/Versions/A/Headers/h3api.h
+
 CMakeFiles/h3.dir/dart_shim.cc.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/dart_shim.cc.o: ../dart_shim.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/h3.dir/dart_shim.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/h3.dir/dart_shim.cc.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/dart_shim.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/h3.dir/dart_shim.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/h3.dir/dart_shim.cc.o -c /Users/louisnewman/h3plugin/ios/dart_shim.cc
 
 CMakeFiles/h3.dir/dart_shim.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/h3.dir/dart_shim.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/dart_shim.cc" > CMakeFiles/h3.dir/dart_shim.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/louisnewman/h3plugin/ios/dart_shim.cc > CMakeFiles/h3.dir/dart_shim.cc.i
 
 CMakeFiles/h3.dir/dart_shim.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/h3.dir/dart_shim.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/dart_shim.cc" -o CMakeFiles/h3.dir/dart_shim.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/louisnewman/h3plugin/ios/dart_shim.cc -o CMakeFiles/h3.dir/dart_shim.cc.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.o: ../h3/src/h3lib/lib/algos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/algos.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/algos.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/algos.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/algos.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/algos.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/algos.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.o: ../h3/src/h3lib/lib/coordijk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/coordijk.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/coordijk.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/coordijk.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/coordijk.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/coordijk.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/coordijk.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.o: ../h3/src/h3lib/lib/bbox.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/bbox.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/bbox.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/bbox.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/bbox.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/bbox.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/bbox.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.o: ../h3/src/h3lib/lib/polygon.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/polygon.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/polygon.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/polygon.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/polygon.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/polygon.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/polygon.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.o: ../h3/src/h3lib/lib/h3Index.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3Index.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3Index.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3Index.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3Index.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3Index.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3Index.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.o: ../h3/src/h3lib/lib/vec2d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec2d.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vec2d.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec2d.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vec2d.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec2d.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vec2d.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.o: ../h3/src/h3lib/lib/vec3d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec3d.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vec3d.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec3d.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vec3d.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vec3d.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vec3d.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.o: ../h3/src/h3lib/lib/linkedGeo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/linkedGeo.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.o: ../h3/src/h3lib/lib/localij.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/localij.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/localij.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/localij.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/localij.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/localij.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/localij.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.o: ../h3/src/h3lib/lib/geoCoord.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/geoCoord.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/geoCoord.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/geoCoord.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/geoCoord.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.o: ../h3/src/h3lib/lib/h3UniEdge.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3UniEdge.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3UniEdge.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3UniEdge.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3UniEdge.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/h3UniEdge.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/h3UniEdge.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.o: ../h3/src/h3lib/lib/mathExtensions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/mathExtensions.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.o: ../h3/src/h3lib/lib/vertexGraph.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/vertexGraph.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.o: ../h3/src/h3lib/lib/faceijk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/faceijk.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/faceijk.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/faceijk.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/faceijk.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/faceijk.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/faceijk.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.s
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.o: CMakeFiles/h3.dir/flags.make
 CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.o: ../h3/src/h3lib/lib/baseCells.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.o -c "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/baseCells.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.o -c /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/baseCells.c
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/baseCells.c" > CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/baseCells.c > CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.i
 
 CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/h3/src/h3lib/lib/baseCells.c" -o CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/louisnewman/h3plugin/ios/h3/src/h3lib/lib/baseCells.c -o CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.s
 
 # Object files for target h3
 h3_OBJECTS = \
@@ -306,29 +310,33 @@ h3_OBJECTS = \
 # External object files for target h3
 h3_EXTERNAL_OBJECTS =
 
-libh3.so: CMakeFiles/h3.dir/dart_shim.cc.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.o
-libh3.so: CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.o
-libh3.so: CMakeFiles/h3.dir/build.make
-libh3.so: CMakeFiles/h3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library libh3.so"
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/dart_shim.cc.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/algos.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/coordijk.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/bbox.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/polygon.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/h3Index.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/vec2d.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/vec3d.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/linkedGeo.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/localij.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/geoCoord.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/h3UniEdge.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/mathExtensions.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/vertexGraph.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/faceijk.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/h3/src/h3lib/lib/baseCells.c.o
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/build.make
+h3.framework/Versions/A/h3: CMakeFiles/h3.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/louisnewman/h3plugin/ios/lib/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library h3.framework/h3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/h3.dir/link.txt --verbose=$(VERBOSE)
 
+h3.framework/h3: h3.framework/Versions/A/h3
+	@$(CMAKE_COMMAND) -E touch_nocreate h3.framework/h3
+
 # Rule to build all files generated by this target.
-CMakeFiles/h3.dir/build: libh3.so
+CMakeFiles/h3.dir/build: h3.framework/h3
+CMakeFiles/h3.dir/build: h3.framework/Versions/A/Headers/h3api.h
 
 .PHONY : CMakeFiles/h3.dir/build
 
@@ -337,6 +345,6 @@ CMakeFiles/h3.dir/clean:
 .PHONY : CMakeFiles/h3.dir/clean
 
 CMakeFiles/h3.dir/depend:
-	cd "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib" "/Users/louisnewman/SocialGuidebookFix copy/h3plugin/ios/lib/CMakeFiles/h3.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/louisnewman/h3plugin/ios/lib && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/louisnewman/h3plugin/ios /Users/louisnewman/h3plugin/ios /Users/louisnewman/h3plugin/ios/lib /Users/louisnewman/h3plugin/ios/lib /Users/louisnewman/h3plugin/ios/lib/CMakeFiles/h3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/h3.dir/depend
 

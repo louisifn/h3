@@ -1,4 +1,4 @@
-import 'dart:async';
+
 import 'dart:ffi';
 import 'dart:io';
 
@@ -8,10 +8,10 @@ import 'package:h3/h3_ffi.dart';
 
 
 void main() {
-//  initializeH3((String name) => DynamicLibrary.process());
-  // initializeH3((String name) => Platform.isAndroid
-  //     ? DynamicLibrary.open("lib${name}.so")
-  //     : DynamicLibrary.process());
+ initializeH3((String name) => DynamicLibrary.process());
+  initializeH3((String name) => Platform.isAndroid
+      ? DynamicLibrary.open("lib${name}.so")
+      : DynamicLibrary.process());
 
   runApp(MyApp());
 }
